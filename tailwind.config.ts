@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				warm: {
+					peach: '#E8B4A0',
+					brown: '#B4B3B3',
+					cream: '#F5F1ED',
+					light: '#BB5B73',
+					purple: '#9B87F5',
+				},
+			},
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
